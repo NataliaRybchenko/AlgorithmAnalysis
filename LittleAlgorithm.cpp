@@ -165,7 +165,7 @@ int **Generator (int n)
             if (i == j)
                 X[i][j] = _infinum;
             else
-                X[i][j] = rand() % 100 + 1;
+                X[i][j] = rand() % 1000000 + 1;
 
         }
     }
